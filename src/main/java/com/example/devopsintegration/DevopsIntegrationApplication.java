@@ -20,7 +20,7 @@ public class DevopsIntegrationApplication {
     }
 
     @PostConstruct
-    public String test() {
+    public  test() {
         log.info("Welcome to javatechie...............");
         return null;
     }
